@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "A Day At Nannys",
+        "image": "https://i.ibb.co/dGKPp6J/nany-first-service.jpg",
+        "salary": 55000,
+        "description": "The kinds of tasks that a nanny will be expected to complete daily can include: Creating a safe and stimulating environment for the children. Bathing and dressing. Changing diapers and potty-training, if age-appropriate"
+    },
+    {
+        "id": 2,
+        "name": "At Home Babysitter",
+        "image": "https://i.ibb.co/Dkf2Py7/close-up-child-enjoying-didactic-game-1.jpg",
+        "salary": 62000,
+        "description": "Our babysitters possess extraordinary abilities in the areas of care, interaction, diligence, responsibility, association, education, and coaching, as well as regulated work skills like flexibility."
+    },
+    {
+        "id": 3,
+        "name": "Baby Sitting",
+        "image": "https://i.ibb.co/2NcqJdP/smiling-mother-playing-with-her-baby-lying-developing-rug-with-mobile-educational-toys-1.jpg",
+        "salary": 72000,
+        "description": "Babysitting services are provided by the hotel, allowing Mums and Dads to enjoy a little 'you' time. Our vetted babysitters report to your hotel room or villa to care for your children. Kid's dinner can be ordered in advance and delivered to your room. "
+    },
+    {
+        "id": 4,
+        "name": "Artful Nanny",
+        "image": "https://i.ibb.co/MDr7sQr/happy-child-draws-face-his-mother-home-1.jpg",
+        "salary": 48000,
+        "description": "Artsy Nannies provides quality educational children activities, crafts, projects and more while parents enjoy themselves! Located on Las Vegas Blvd South, 1 mile south of Mandalay Bay."
+    },
+    {
+        "id": 5,
+        "name": "Kiddie Kapers",
+        "image": "https://i.ibb.co/YZwDFn1/young-happy-mom-is-plaing-with-her-newborn-baby-masseur-cabinet-full-special-treatment-toys.jpg",
+        "salary": 60000,
+        "description": "Choosing the right provision and care for your child is not an easy decision. Here, at Kiddy Kapers, we are passionate about children. We aim to provide a welcoming, loving and caring environment that your child looks forward to, leaving you with the peace of mind. We aim to achieve this by:"
+    },
+    {
+        "id": 6,
+        "name": "Wiggly Toes Nanny Service",
+        "image": "https://i.ibb.co/8Y6hnvL/child-helping-his-disabled-mother.jpg",
+        "salary": 68000,
+        "description": "Nannies are caregivers that are with your children on a consistent, weekly basis. Twinkle Toes offers full time (21+ hours/week) and part time (up to 20 hrs/week) nanny services to accommodate your family's needs. If you are in need of date night or just occasional help"
+    }
+]
