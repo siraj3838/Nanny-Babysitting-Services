@@ -14,6 +14,7 @@ const Home = () => {
         <div className="">
             <Navbar></Navbar>
             <Banner></Banner>
+            <h4 className="my-10 text-4xl text-center font-bold">Our All Services</h4>
             <div className="grid grid-cols-3 gap-6 mt-10 max-w-screen-xl mx-auto">
                 {
                     apiData.map(serviceCard => <ServiceCard key={serviceCard.id} serviceCard={serviceCard}></ServiceCard>)

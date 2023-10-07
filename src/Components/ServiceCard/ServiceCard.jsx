@@ -18,7 +18,7 @@ const ServiceCard = ({ serviceCard }) => {
             </div>
             <p>{readMore ? description : description.slice(0, 95)}<button onClick={() => setReadMore(!readMore)} className="text-[#e448a0]">{readMore ? 'read less' : 'read more..'}</button></p>
             <Link to={`/details/${id}`}>
-                <button className="w-full text-xl font-semibold py-2 text-white bg-[#e448a0] rounded-lg hover:bg-[#b53a7f]">Hire</button>
+                <button className="w-full text-xl font-semibold py-2 text-white bg-[#e448a0] rounded-lg hover:bg-[#b53a7f] mt-5">Hire</button>
             </Link>
         </div>
     );

@@ -6,6 +6,7 @@ import Services from "../Pages/Services/Services";
 import Login from "../Pages/Login/Login";
 import About from "../Pages/About/About";
 import HireCardDetails from "../Components/HireCardDetails/HireCardDetails";
+import Registration from "../Pages/Registration/Registration";
 
 const MainRouter = createBrowserRouter([
     {
@@ -28,6 +29,10 @@ const MainRouter = createBrowserRouter([
             {
                 path: '/login',
                 element: <Login></Login>
+            },
+            {
+                path: '/registration',
+                element: <Registration></Registration>
             },
             {
                 path: '/about',

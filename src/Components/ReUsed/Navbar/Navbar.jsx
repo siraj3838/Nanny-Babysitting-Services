@@ -47,7 +47,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div>
-                    <Link><button className="text-2xl px-6 py-2 text-white bg-[#e448a0] rounded-lg hover:bg-[#b53a7f]">Login</button></Link>
+                    <Link to={'/login'}><button className="text-2xl px-6 py-2 text-white bg-[#e448a0] rounded-lg hover:bg-[#b53a7f]">Login</button></Link>
                 </div>
             </div>
         </div>
