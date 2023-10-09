@@ -57,11 +57,11 @@ const Navbar = () => {
         </div>
         <div>
           {
-            user ? <ul className="flex pl-14 md:pl-44 lg:pl-0 my-4 lg:my-0 gap-4 md:gap-16 lg:gap-16 text-2xl font-semibold">
+            user ? <ul className="flex pl-10 md:pl-44 lg:pl-0 my-4 lg:my-0 gap-4 md:gap-16 text-lg lg:gap-16 lg:text-2xl font-semibold">
             {navItems}
           </ul>
           :
-          <ul className="flex pl-14 md:pl-12 lg:pl-0 my-4 lg:my-0 gap-4 md:gap-16 lg:gap-16 text-2xl font-semibold">
+          <ul className="flex pl-14 md:pl-12 lg:pl-0 my-4 lg:my-0 gap-4 md:gap-16 lg:gap-16 text-lg lg:text-2xl font-semibold">
             {navItems}
           </ul>
           }

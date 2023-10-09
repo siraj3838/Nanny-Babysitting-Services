@@ -69,7 +69,7 @@ const Registration = () => {
                 <Navbar></Navbar>
             </div>
             <div className="py-5 rounded-md" data-aos="flip-right" data-aos-duration="2200">
-                <div className="bg-white px-24 w-[600px] mx-auto py-5 shadow-2xl">
+                <div className="bg-white px-24 w-full lg:w-[600px] mx-auto py-5 shadow-2xl">
                     <h3 className="text-4xl font-semibold font-serif text-center">Register your account</h3>
                     <hr className="my-4" />
                     <form onSubmit={registrationHandle}>
@@ -103,7 +103,7 @@ const Registration = () => {
 
                             </label>
                             <input type={showPassword ? 'text' : 'password'} placeholder="Enter your password" name="password" required className="input rounded-md w-full mt-2 bg-[#F3F3F3] py-7" />
-                            <h2 className="cursor-pointer text-2xl absolute mt-[70px] ml-[330px]" onClick={()=> setShowPassword(!showPassword)}>{showPassword ? <AiFillEye></AiFillEye> : <AiFillEyeInvisible></AiFillEyeInvisible>}</h2>
+                            <h2 className="cursor-pointer text-2xl absolute mt-[70px] ml-40 md:ml-[490px] lg:ml-[330px]" onClick={()=> setShowPassword(!showPassword)}>{showPassword ? <AiFillEye></AiFillEye> : <AiFillEyeInvisible></AiFillEyeInvisible>}</h2>
 
                         </div>
                         {
@@ -117,7 +117,7 @@ const Registration = () => {
                         </div>
                     </form>
                     <p className="text-center">or</p>
-                    <div className="w-[368px] mx-auto">
+                    <div className="w-full lg:w-[368px] mx-auto">
                         <button onClick={googleLogin} className="bg-[#30a4a6] hover:bg-[#29898b] mt-3 text-white w-full text-xl font-semibold py-3 rounded-md">Google Login</button>
                     </div>
                     <h3 className="text-center mt-8 text-base font-semibold">Already Have An Account ? <Link to={'/login'}><span className="text-[#FF8C47]">Login</span></Link></h3>

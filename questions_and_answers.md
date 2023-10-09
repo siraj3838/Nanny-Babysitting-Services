@@ -18,7 +18,7 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer:  B: ReferenceError: greetign is not defined
+#### Answer:  B: ReferenceError
 
 <i>greetign is not defined. In the code, you declared a variable named greeting but then attempted to assign an empty object {} to a variable called greetign note the typo in the variable name.</i>
  
