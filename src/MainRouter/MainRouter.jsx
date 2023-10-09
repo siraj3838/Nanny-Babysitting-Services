@@ -2,16 +2,18 @@ import { createBrowserRouter } from "react-router-dom";
 import Root from "../MainRoot/Root";
 import Home from "../Pages/Home/Home";
 import Features from "../Pages/Features/Features";
-import Services from "../Pages/Services/Services";
 import Login from "../Pages/Login/Login";
-import About from "../Pages/About/About";
 import HireCardDetails from "../Components/HireCardDetails/HireCardDetails";
 import Registration from "../Pages/Registration/Registration";
+import PrivateRouter from "./PrivateRouter/PrivateRouter";
+import Employers from "../Pages/Services/Employers";
+import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 
 const MainRouter = createBrowserRouter([
     {
         path: '/',
         element: <Root></Root>,
+        errorElement: <ErrorPage></ErrorPage>,
         children: [
             {
                 path: '/',
@@ -20,11 +22,11 @@ const MainRouter = createBrowserRouter([
             },
             {
                 path: '/features',
-                element: <Features></Features>
+                element: <PrivateRouter><Features></Features></PrivateRouter>
             },
             {
-                path: '/services',
-                element: <Services></Services>
+                path: '/employers',
+                element: <PrivateRouter><Employers></Employers></PrivateRouter>
             },
             {
                 path: '/login',
@@ -35,12 +37,8 @@ const MainRouter = createBrowserRouter([
                 element: <Registration></Registration>
             },
             {
-                path: '/about',
-                element: <About></About>
-            },
-            {
-                path: '/details/:id',
-                element: <HireCardDetails></HireCardDetails>,
+                path: '/hiredetails/:id',
+                element: <PrivateRouter><HireCardDetails></HireCardDetails></PrivateRouter>,
                 loader: () => fetch('/servicesData.json')
             }
         ]

@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/bK4jRqc/portrait-young-tender-woman-with-healthy-freckled-skin.jpg",
+      "name": "Sarah",
+      "position": "Babysitter",
+      "details": "My journey as a babysitter started five years ago when I decided to turn my passion for childcare into a part-time job. I had always enjoyed spending time with kids, and I wanted to make a positive impact on their lives while also helping busy parents.",
+      "location": "San Francisco, CA"
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/H4Z0RN0/enthusiastic-smiling-redhead-middleaged-woman-grinning-joyfully-alluring-motivated-gaze-camera-deter.jpg",
+      "name": "Emily",
+      "position": "Babysitter",
+      "details": "One of the most important aspects of being a babysitter is building trust with both the children and their parents. Establishing a connection with the kids is the first step. I've found that actively listening to their stories, playing their favorite games, and being patient go a long way in building trust and creating a safe and nurturing environment.",
+      "location": "New York, NY"
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/r5ZwXj2/young-woman-showing-several-expressions-isolated-white-background.jpg",
+      "name": "Jessica",
+      "position": "Babysitter",
+      "details": "Every child I've had the pleasure of babysitting has been unique, with their own personality, interests, and challenges. This diversity has taught me to adapt and be flexible in my caregiving approach. I've learned the importance of patience, empathy, and understanding, which are essential qualities in childcare.",
+      "location": "Chicago, IL"
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/NyG3dnL/red-haired-woman-smiling.jpg",
+      "name": "Lisa",
+      "position": "Babysitter",
+      "details": "Witnessing the growth and development of the children I've cared for has been incredibly fulfilling. From their first steps to their first words, I've celebrated many milestones with them. These moments have reinforced my belief in the importance of early childhood development.",
+      "location": "Los Angeles, CA"
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/R0ND6rm/smiling-happy-woman-wearing-denim-jacket-white-shirt.jpg",
+      "name": "Maria",
+      "position": "Babysitter",
+      "details": "Safety is paramount in babysitting. I made sure to obtain CPR and First Aid certification to be prepared for any situation. Thankfully, I've never had to use these skills, but knowing I'm prepared gives both me and the parents peace of mind.",
+      "location": "Austin, TX"
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co/4Yh6SnN/woman-with-pleasant-smile-dark-hair-dressed-casual-pink-t-shirt-has-white-perfect-teeth-rejoices-rec.jpg",
+      "name": "Samantha",
+      "position": "Babysitter",
+      "details": "Being a babysitter has not only taught me about childcare but has also helped me develop crucial life skills. I've honed my time management, communication, and problem-solving skills. It's a job that challenges me in the best possible way.",
+      "location": "Seattle, WA"
+    }
+]
