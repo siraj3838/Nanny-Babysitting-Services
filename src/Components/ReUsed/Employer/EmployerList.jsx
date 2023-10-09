@@ -12,17 +12,17 @@ const EmployerList = () => {
     }, [])
     return (
         <div className="bg-[#cf1bdc15] py-5">
-            <div className="max-w-screen-xl mx-auto my-5">
+            <div className="max-w-screen-xl mx-auto my-5" data-aos="flip-up" data-aos-duration="2200">
                 <div className="">
                     <div className="w-48 py-3 text-center rounded-3xl border mx-auto bg-pink-400">
                         <h2 className="text-xl font-bold text-blue-100">OUR GREAT STAFF</h2>
                     </div>
-                    <h2 className="text-center text-6xl font-bold font-serif mt-6 text-[#162060]">
+                    <h2 className="text-center text-3xl mb-4 lg:text-6xl font-bold font-serif mt-6 text-[#162060]">
                         Meet Our Babysitter
                     </h2>
                 </div>
                 <div>
-                    <div className="grid grid-cols-3 gap-6">
+                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {
                           seeMore ? employersData.map(employer => <EmployerCard key={employer.id} employer={employer}></EmployerCard>)
                           :  employersData.slice(0,3).map(employer => <EmployerCard key={employer.id} employer={employer}></EmployerCard>)

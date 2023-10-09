@@ -4,16 +4,20 @@ const ForthBanner = () => {
     return (
         <div className="bg-white mt-16">
             <div className="max-w-screen-xl mx-auto">
-                <div>
+                <div data-aos="fade-down" data-aos-duration="1400">
                     <div className="w-48 py-3 text-center rounded-3xl border mx-auto bg-blue-200">
                         <h2 className="text-xl font-bold text-blue-400">BOUR VALUES</h2>
                     </div>
-                    <h2 className="text-center text-6xl font-bold mt-6 text-[#162060]">
+                    <h2 className="text-center text-3xl lg:text-6xl font-bold mt-6 text-[#162060]">
                         Total Peace of Mind
                     </h2>
                 </div>
-                <div className="flex justify-center gap-10 items-center py-16">
-                    <div className='space-y-3'>
+                <div className="px-2 md:px-6 lg:px-0 flex-row lg:flex justify-center gap-10 items-center py-16">
+                    <div className='space-y-3' data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine"
+                        data-aos-duration="1000"
+                        >
                         <div className='flex justify-center items-center gap-3'>
                             <div className='text-5xl text-blue-500 bg-white rounded-full'><MdVerifiedUser></MdVerifiedUser></div>
                             <div>
@@ -22,19 +26,21 @@ const ForthBanner = () => {
                             </div>
                         </div>
                         <div className='flex justify-center items-center gap-3'>
-                        <div className='text-5xl text-blue-500 bg-white rounded-full'><MdVerifiedUser></MdVerifiedUser></div>
+                            <div className='text-5xl text-blue-500 bg-white rounded-full'><MdVerifiedUser></MdVerifiedUser></div>
                             <div>
                                 <h3 className="text-[#162060] font-bold text-xl hover:text-[#8f1178]">Last-minute Requests</h3>
                                 <p className="text-gray-400 inline">If you are considering hiring a nanny or becoming one,</p>
                             </div>
                         </div>
                     </div>
-                    <div className="">
+                    <div className="" data-aos="fade-up"
+                        data-aos-duration="2200">
                         <div>
                             <img className="w-[490px]" src="https://i.ibb.co/GxCsPds/img-7.webp" alt="" />
                         </div>
                     </div>
-                    <div className="text-right space-y-3">
+                    <div className="text-right space-y-3" data-aos="fade-left"
+                        data-aos-duration="2200">
                         <div className='flex justify-center items-center gap-3'>
                             <div>
                                 <h3 className="text-[#162060] font-bold text-xl hover:text-[#8f1178]">All Ages Childcare</h3>

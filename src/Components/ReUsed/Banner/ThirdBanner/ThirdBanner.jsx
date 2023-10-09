@@ -2,11 +2,11 @@
 const ThirdBanner = () => {
     return (
         <div className="bg-sky-100">
-            <div className="max-w-screen-xl mx-auto">
-                <div className="flex justify-center gap-10 items-center py-16">
+            <div className="max-w-screen-xl mx-auto px-6 lg:px-0">
+                <div className="flex-row-reverse lg:flex justify-center gap-4 lg:gap-10 items-center py-16">
                     <div className="">
-                        <div>
-                            <img className="w-[490px]" src="https://i.ibb.co/0mwtvH0/img-3.webp" alt="" />
+                        <div className="md:pl-28 lg:pl-0">
+                            <img className="w-80 lg:w-[490px]" src="https://i.ibb.co/0mwtvH0/img-3.webp" alt="" />
                         </div>
                     </div>
                     <div>
@@ -14,7 +14,7 @@ const ThirdBanner = () => {
                             <div className="w-48 py-3 text-center rounded-3xl border mx-auto bg-blue-200">
                                 <h2 className="text-xl font-bold text-blue-400">BENEFITS OF</h2>
                             </div>
-                            <h2 className="text-center text-6xl font-bold mt-6 text-[#162060]">
+                            <h2 className="text-center text-3xl lg:text-6xl font-bold mt-6 text-[#162060]">
                                 Childcare Services
                             </h2>
                             <p className="text-center mt-8 text-gray-500">Our service is simple, once you register with Happy Baby we select <br /> and introduce suitable babysitter/s for your family. <br /> You then are free to contact that babysitter as many times <br /> as required for further bookings.</p>

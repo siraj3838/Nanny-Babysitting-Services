@@ -68,7 +68,7 @@ const Registration = () => {
             <div className="">
                 <Navbar></Navbar>
             </div>
-            <div className="py-5 rounded-md">
+            <div className="py-5 rounded-md" data-aos="flip-right" data-aos-duration="2200">
                 <div className="bg-white px-24 w-[600px] mx-auto py-5 shadow-2xl">
                     <h3 className="text-4xl font-semibold font-serif text-center">Register your account</h3>
                     <hr className="my-4" />
