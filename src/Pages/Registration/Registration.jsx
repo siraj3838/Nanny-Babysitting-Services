@@ -37,13 +37,13 @@ const Registration = () => {
             .then(response => {
                 console.log(response.user)
                 setCreateSuccess('Registration SuccessFully');
-                toast.success('Registration SuccessFully');
                 updateProfile(response.user, {
                     displayName: name,
                     photoURL: photo,
                 })
                     .then(() => {
-                        console.log('nice')
+                        window.location.reload()
+                        toast.success('Registration SuccessFully');
                     })
                     .catch(error => {
                         console.log(error)

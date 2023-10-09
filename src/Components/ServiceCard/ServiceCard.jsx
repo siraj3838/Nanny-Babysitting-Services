@@ -14,7 +14,7 @@ const ServiceCard = ({ serviceCard }) => {
             <h3 className="text-2xl font-bold text-center text-[#763158]">{name}</h3>
             <hr />
             <div>
-                <h4 className="text-xl font-semibold">Salary: {salary}$ per Month</h4>
+                <h4 className="text-xl font-semibold">Price: {salary}$</h4>
             </div>
             <p className="text-gray-400">{description.slice(0, 95)}...</p>
             <Link to={`/hiredetails/${id}`}>

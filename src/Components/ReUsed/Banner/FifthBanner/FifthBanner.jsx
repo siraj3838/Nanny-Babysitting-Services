@@ -5,7 +5,7 @@ const FifthBanner = () => {
             <div className="max-w-screen-xl mx-auto">
                 <h3 className="text-center mb-12 text-3xl lg:text-6xl font-bold">What Are You Looking For</h3>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 lg:gap-8 pb-10 px-6 lg:px-0">
-                    <div className="grid grid-cols-3 gap-3 border p-4 rounded h-48" data-aos="fade-down-right" data-aos-duration="2200">
+                    <div className="grid grid-cols-3 gap-3 border p-4 rounded h-48" data-aos-duration="2200" data-aos="flip-left">
                         <div className="col-span-1">
                             <img className="h-full" src="https://i.ibb.co/MDM7gzn/front-view-cute-baby-brother-sister.jpg" alt="" />
                         </div>
@@ -14,7 +14,7 @@ const FifthBanner = () => {
                             <p>We make finding childcare as easy as children to play Join Today and get browsing for your kids care</p>
                         </div>
                     </div>
-                    <div className="grid grid-cols-3 gap-3 border p-4 rounded h-48" data-aos="fade-down-left" data-aos-duration="2200">
+                    <div className="grid grid-cols-3 gap-3 border p-4 rounded h-48" data-aos-duration="2200" data-aos="flip-right">
                         <div className="col-span-1">
                             <img className="h-full" src="https://i.ibb.co/93S6WjV/portrait-three-year-child.jpg" alt="" />
                         </div>
@@ -23,7 +23,7 @@ const FifthBanner = () => {
                             <p>Everyday activities like cooking, outdoor exploration, and chores can all be infused with</p>
                         </div>
                     </div>
-                    <div className="grid grid-cols-3 gap-3 border p-4 rounded h-48" data-aos="fade-up-right" data-aos-duration="2200">
+                    <div className="grid grid-cols-3 gap-3 border p-4 rounded h-48" data-aos-duration="2200" data-aos="flip-left">
                         <div className="col-span-1">
                             <img className="h-full" src="https://i.ibb.co/DbqVhfm/baby-doing-his-first-steps.jpg" alt="" />
                         </div>
@@ -33,7 +33,7 @@ const FifthBanner = () => {
 </p>
                         </div>
                     </div>
-                    <div className="grid grid-cols-3 gap-3 border p-4 rounded h-48" data-aos="fade-up-left" data-aos-duration="2200">
+                    <div className="grid grid-cols-3 gap-3 border p-4 rounded h-48" data-aos-duration="2200" data-aos="flip-right">
                         <div className="col-span-1">
                             <img className="h-full" src="https://i.ibb.co/gtkrLNw/adorable-baby-playing-with-colorful-toys-isolated-background.jpg" alt="" />
                         </div>

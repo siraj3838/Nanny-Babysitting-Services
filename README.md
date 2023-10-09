@@ -1,8 +1,13 @@
-# React + Vite
+● My Website Name: Nanny Babysitter Services
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+● My Website Link: https://nanny-babysitting-services.web.app/
 
-Currently, two official plugins are available:
+1/ About our site Babysitter. We have provided email password authentication at the beginning.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2/ Our site will take care of your child in your busy time with honesty.
+
+3/ You will get the best suggestion event site at the best low price on our site event.
+
+4/ By clicking on our event you can see the event details if you are a registered user.
+
+5/ We have many employers whose information you can hire by going to Employers Root.

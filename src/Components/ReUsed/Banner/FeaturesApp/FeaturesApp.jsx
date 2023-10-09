@@ -21,7 +21,7 @@ const FeaturesApp = () => {
                             <img className="h-[280px] w-full lg:h-[440px]" src="https://i.ibb.co/8XwdXxZ/phone.webp" alt="" />
                         </div>
                     </div>
-                    <div className="text-right space-y-3">
+                    <div className="text-right space-y-3" data-aos-duration="2200" data-aos="flip-left">
                         <div>
                             <button className="bg-[#162060] text-white rounded-lg"><div className="p-1 md:px-4 md:py-5 flex items-center lg:gap-3 gap-1">
                                 <span className="text-xs lg:text-base">Download From</span><span className="text-xl lg:text-2xl font-extrabold">Apple Store</span><AiFillApple className='text-4xl'></AiFillApple></div></button>

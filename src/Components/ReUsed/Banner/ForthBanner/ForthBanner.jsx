@@ -4,7 +4,7 @@ const ForthBanner = () => {
     return (
         <div className="bg-white mt-16">
             <div className="max-w-screen-xl mx-auto">
-                <div data-aos="fade-down" data-aos-duration="1400">
+                <div>
                     <div className="w-48 py-3 text-center rounded-3xl border mx-auto bg-blue-200">
                         <h2 className="text-xl font-bold text-blue-400">BOUR VALUES</h2>
                     </div>
@@ -12,11 +12,8 @@ const ForthBanner = () => {
                         Total Peace of Mind
                     </h2>
                 </div>
-                <div className="px-2 md:px-6 lg:px-0 flex-row lg:flex justify-center gap-10 items-center py-16">
-                    <div className='space-y-3' data-aos="fade-right"
-                        data-aos-offset="300"
-                        data-aos-easing="ease-in-sine"
-                        data-aos-duration="1000"
+                <div className="px-2 md:px-6 lg:px-0 flex-row lg:flex justify-center space-y-3 gap-10 items-center py-16">
+                    <div data-aos-duration="2200" data-aos="flip-left" className='space-y-3'
                         >
                         <div className='flex justify-center items-center gap-3'>
                             <div className='text-5xl text-blue-500 bg-white rounded-full'><MdVerifiedUser></MdVerifiedUser></div>
@@ -33,14 +30,12 @@ const ForthBanner = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="" data-aos="fade-up"
-                        data-aos-duration="2200">
+                    <div data-aos-duration="2200" data-aos="flip-right" className="">
                         <div>
                             <img className="w-[490px]" src="https://i.ibb.co/GxCsPds/img-7.webp" alt="" />
                         </div>
                     </div>
-                    <div className="text-right space-y-3" data-aos="fade-left"
-                        data-aos-duration="2200">
+                    <div data-aos-duration="2200" data-aos="flip-left" className="text-right space-y-3">
                         <div className='flex justify-center items-center gap-3'>
                             <div>
                                 <h3 className="text-[#162060] font-bold text-xl hover:text-[#8f1178]">All Ages Childcare</h3>

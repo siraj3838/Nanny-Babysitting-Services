@@ -4,12 +4,12 @@ const ThirdBanner = () => {
         <div className="bg-sky-100">
             <div className="max-w-screen-xl mx-auto px-6 lg:px-0">
                 <div className="flex-row-reverse lg:flex justify-center gap-4 lg:gap-10 items-center py-16">
-                    <div className="">
+                    <div data-aos-duration="2200" data-aos="flip-left" className="">
                         <div className="md:pl-28 lg:pl-0">
                             <img className="w-80 lg:w-[490px]" src="https://i.ibb.co/0mwtvH0/img-3.webp" alt="" />
                         </div>
                     </div>
-                    <div>
+                    <div data-aos-duration="2200" data-aos="flip-right">
                         <div className="">
                             <div className="w-48 py-3 text-center rounded-3xl border mx-auto bg-blue-200">
                                 <h2 className="text-xl font-bold text-blue-400">BENEFITS OF</h2>
